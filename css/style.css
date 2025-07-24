@@ -74,6 +74,10 @@ body {
     color: rgb(255, 132, 0);
   }
 
+.tagline {
+  position: relative;
+  z-index: 1;
+}
 
 .tagline h1 {
   text-align: center;
@@ -81,12 +85,21 @@ body {
   margin-top: 200px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
   font-style: italic;
-
-  
 }
 
-
-
+/* BG Colours */
+.bg-green {
+  background-color: rgb(15, 70, 15);
+}
+.bg-pink {
+  background-color: rgb(121, 34, 109);
+}
+.bg-blue {
+  background-color: rgb(50, 136, 186);
+}
+.bg-orange {
+  background-color: rgb(207, 111, 59);
+}
 
   /* Mobile view styles */
   @media (max-width: 991px) {
