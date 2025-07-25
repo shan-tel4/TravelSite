@@ -74,6 +74,11 @@ body {
     color: rgb(255, 132, 0);
   }
 
+  .tagline {
+  position: relative;
+  z-index: 1;
+  }
+
 
 .tagline h1 {
   text-align: center;
