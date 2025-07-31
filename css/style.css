@@ -5,10 +5,11 @@ body {
   
   .header-bg {
     height: 100vh;
-    background-image: url('../images/header.png');
+    background-image: url('../images/beach.png');
     background-size: cover; /* fills the div's width & height */
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.9;
     position: relative;
   }
 /*   
@@ -82,7 +83,6 @@ body {
 .tagline h1 {
   text-align: center;
   font-size: 40px;
-  opacity: 0.75;
   color: white;
   margin-top: 200px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
@@ -160,10 +160,10 @@ body {
     width: 100%;
   }
   .bg-image-1 {
-    background-image: url('../images/kayak.png.jpg');
+    background-image: url('../images/starfish.jpg');
   }
   .bg-image-2 {
-    background-image: url('../images/kayak.png.jpg');
+    background-image: url('../images/holiday.png');
   }
   .inner-content {
     padding-right: 120px;
