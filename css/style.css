@@ -158,12 +158,13 @@ body {
     background-repeat: no-repeat;
     height: 350px;
     width: 100%;
+
   }
   .bg-image-1 {
     background-image: url('../images/starfish.jpg');
   }
   .bg-image-2 {
-    background-image: url('../images/holiday.png');
+    background-image: url('../images/sunset.jpg');
   }
   .inner-content {
     padding-right: 120px;
@@ -193,3 +194,30 @@ body {
     border: 0;
     background-color: #eb797f;
   }
+
+  .adventure-section {
+    background-image: url('../images/rocks.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .adventure-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+  }
+  
+  .adventure-section .content {
+    position: relative;
+    z-index: 2;
+  }
+  
